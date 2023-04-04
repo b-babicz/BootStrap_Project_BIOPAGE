@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Technologies - Responsive Web Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="images/webicon.ico">
+    <style>
+        body{
+            background-image: linear-gradient(to bottom right, #85d4be,#10D164);
+            background-attachment: fixed;
+            background-position: center;
+            
+            }
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link
+        {
+            background-color: #d6e9aa;
+        }
+        textarea
+        {
+            resize: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-teritiary nav-pills nav-fill" style="background-color: #b6dcb6;">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">Bartłomiej Babicz</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNacAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link" aria-current="page">Strona główna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="skills.html" class="nav-link">Posiadane umiejętności</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Contact.html" class="nav-link active">Kontakt</a>
+                        </li>
+                        <li class="nav-sep"></li>
+                    </ul>
+                </div>
+    
+            </div>
+        </nav>
+    </header>
+
+<div class="card mx-4 " style="align-items: center; text-align: center; background-color: transparent; height: 4em; border: none; padding: 1em;">
+<h2>Skontaktuj się ze mną</h2>
+</div>    
+
+
+<div class="card mx-md-5">
+    <div class="card-body">
+        <form action="mailto:kontakt@bartlomiejbabicz.pl" method="get" enctype="text/plain">
+        <div class="d-grid">
+            <label for="subjectMessage" class="form-label">Temat wiadomości</label>
+            <input type="text" class="form-control" id="subjectMessage" placeholder="Temat wiadomości">
+        </div>
+        </br>
+        <div class="d-grid">
+            <label for="emailField" class="form-label">Adres e-mail</label>
+            <input type="email" class="form-control" id="emailField" placeholder="name@example.com">
+        </div>
+        </br>
+        <div class="d-grid">
+            <label for="MessageText" class="form-label">Treść wiadomości</label>
+            <textarea class="form-control" id="MessageText" placeholder="Treść wiadomości" rows="6"> </textarea>
+        </div>
+    </br>
+        <div class="d-grid">
+            <button type="submit" class="btn btn-primary mb3">Wyślij wiadomość</button>
+        </div>
+        </form>
+    </div>
+</div>
+
+<div class="card mx-4 " style="align-items: center; background-color: transparent; height: 3em; border: none;">
+</div>    
+
+
+
+
+
+<footer class="bg-light text-center text-white fixed-bottom">
+
+    <div class="container p-1 pb-0">
+
+      <section class="mb-1">
+
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="https://www.facebook.com/bartek.babicz09/"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+
+        
+  
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="https://www.youtube.com/@bartekbabicz/"
+          role="button"
+          ><i class="fab fa-youtube"></i
+        ></a>
+  
+
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="https://www.instagram.com/b_babicz/"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="https://www.linkedin.com/in/bartlomiej-babicz/"
+          role="button"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #333333;"
+          href="https://github.com/b-babicz"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+
+        <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333432;"
+        href="mailto:kontakt@bartlomiejbabicz.pl"
+        role="button"
+        ><i class="fas fa-mail-bulk"></i
+      ></a>
+      </section>
+
+    </div>
+
+  
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://bartlomiejbabicz.pl/">Bartłomiej Babicz</a>
+    </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://kit.fontawesome.com/90b6da3ce4.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
